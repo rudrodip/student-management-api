@@ -42,4 +42,4 @@ function sms_send(message, numbers) {
     req.end();
 }
 
-module.exports = sms_send
+module.exports = { sms_send }
